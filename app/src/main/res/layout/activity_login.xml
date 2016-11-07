@@ -79,7 +79,9 @@
                 android:inputType="textMultiLine"
                 android:text="@string/welcome_text"
                 android:ems="10"
-                android:id="@+id/editText2" />
+                android:id="@+id/editText2"
+                android:elevation="1dp"
+                android:focusable="false"/>
 
         </LinearLayout>
     </ScrollView>
